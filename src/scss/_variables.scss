@@ -381,9 +381,9 @@ $caret-width: 0.36em !default;
 $caret-spacing: 0.4em !default;
 
 //Sizing
-$page-padding: var(--#{$prefix}spacer-3) !default;
+$page-padding: var(--#{$prefix}spacer-4) !default;
 $page-padding-sm: var(--#{$prefix}spacer-2) !default;
-$page-padding-y: var(--#{$prefix}spacer-4) !default;
+$page-padding-y: var(--#{$prefix}spacer-6) !default;
 
 // Sizing
 $container-padding-x: calc(var(--#{$prefix}page-padding) * 2) !default;
@@ -402,25 +402,25 @@ $container-variations: (
 $spacer-0: 0 !default;
 $spacer-1: 0.25rem !default;
 $spacer-2: 0.5rem !default;
-$spacer-3: 1rem !default;
-$spacer-4: 1.5rem !default;
-$spacer-5: 2rem !default;
-$spacer-6: 3rem !default;
-$spacer-7: 5rem !default;
-$spacer-8: 8rem !default;
+$spacer-4: 1rem !default;
+$spacer-6: 1.5rem !default;
+$spacer-8: 2rem !default;
+$spacer-12: 3rem !default;
+$spacer-20: 5rem !default;
+$spacer-32: 8rem !default;
 
-$spacer: $spacer-3 !default;
+$spacer: $spacer-1 !default; // used by Bootstrap
 
 $spacers: (
   0: 0,
   1: $spacer-1,
   2: $spacer-2,
-  3: $spacer-3,
   4: $spacer-4,
-  5: $spacer-5,
   6: $spacer-6,
-  7: $spacer-7,
   8: $spacer-8,
+  12: $spacer-12,
+  20: $spacer-20,
+  32: $spacer-32,
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;

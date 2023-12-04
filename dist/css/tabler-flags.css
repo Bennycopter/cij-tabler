@@ -55,10 +55,6 @@
   background-image: url("../img/flags/am.svg");
 }
 
-.flag-country-ams {
-  background-image: url("../img/flags/ams.svg");
-}
-
 .flag-country-ao {
   background-image: url("../img/flags/ao.svg");
 }
@@ -281,6 +277,10 @@
 
 .flag-country-do {
   background-image: url("../img/flags/do.svg");
+}
+
+.flag-country-dz {
+  background-image: url("../img/flags/dz.svg");
 }
 
 .flag-country-ec {
@@ -531,8 +531,8 @@
   background-image: url("../img/flags/km.svg");
 }
 
-.flag-country-kn-sk {
-  background-image: url("../img/flags/kn-sk.svg");
+.flag-country-kn {
+  background-image: url("../img/flags/kn.svg");
 }
 
 .flag-country-kp {
